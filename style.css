@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #333333;
+  background-color: hsl(0, 0%, 8%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  background-color: #1f1f1f;
+  background-color: hsl(0, 0%, 12%);
   width: 360px;
   height: 580px;
   border: none;
@@ -29,13 +29,13 @@ body {
 
 h1 {
   text-align: center;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   margin: -11px 0;
   font-weight: 700;
   font-size: 24px;
 }
 .span {
-  color: #c5f82a;
+  color: hsl(75, 94%, 57%);
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -44,7 +44,7 @@ h1 {
 
 .topic {
   text-align: center;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   margin-top: 32px;
   font-size: 14px;
   font-weight: bold;
@@ -70,20 +70,20 @@ h1 {
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
-  color: #ffff;
+  color: hsl(0, 0%, 100%);
   align-content: center;
   transition: 0.3s ease-in;
 }
 
 .medias a:hover {
-  background-color: #c5f82a;
-  color: #1f1f1f;
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
 
 .container {
-    width: 90%;
+    width: 92%;
     padding: 24px;
     margin-bottom: 30px;
 }
